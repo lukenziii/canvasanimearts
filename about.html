@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-
+     scale=1.0">
+     <title>Canvas Anime Arts</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="ikona/jpg" href="img/ikona.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="recommendations.html">RECOMMENDATIONS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+        <h1>About Us</h1>
+    </section>
+
+
+<!----- about us content ------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Mi smo stranica koja se bavi crtanjem anime karaktera</h1>
+
+            <a href="https://www.instagram.com/tea.aart/" target="_blank" class="hero-btn red-btn">NARUCI SADA!</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+  <script>
+     
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+     }
+
+  </script>  
+
+</body>
+</html>
+
+
+
+
+
+
+
+

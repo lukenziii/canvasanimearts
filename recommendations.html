@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-
+     scale=1.0">
+     <title>Canvas Anime Arts</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+<link rel="icon" type="ikona/jpg" href="img/ikona.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">RECOMMENDATIONS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+        <h1>Recommendations</h1>
+        <p>Recommend us what should we draw :)</p>
+    </section>
+
+    <div class="comment-box"> 
+
+        <form action="#">
+            <input type="text" name="full_name" placeholder="Full Name...">
+            <input type="email" name="email" placeholder="Email Adress...">
+            <textarea name="comment" placeholder="Type Your Comment..."></textarea>
+            <button type="submit">Submit Comment</button>
+        </form>
+
+    </div>
+
+<!-------JavaScript for Toggle Menu------->
+  <script>
+     
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+     }
+
+  </script>  
+
+</body>
+</html>
+
+
+
+
+
+
+
+
